@@ -1,0 +1,38 @@
+.filter {
+    font-family: $OpenSans;
+    font-size: 16px;
+    color: #222;
+    margin-top: 50px;
+    @media (max-width: $mobile) {
+        margin-top: 15px;
+    }
+
+    &__list {
+        display: flex;
+        margin-bottom: 15px;
+        line-height: 1.7;
+
+        @media (max-width: $mobile) {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        &::before {
+            @include size(20px, 1px);
+            content: '';
+            background: #222;
+            margin: 10px 15px 0;
+        }
+    }
+    &__item {
+        margin-right: 30px;
+    }
+    &__button {
+        background-color: #fff;
+        
+        &:hover, &:focus{
+            color: $hover;
+            border: none;
+        }
+    }
+}

@@ -4,7 +4,7 @@
             "id": 1,
             "filter": "children g12",
             "name": "Globenko Anita",
-            "img": "app/images/photo3.jpg",
+            "img": "images/photo3.jpg",
             "age": "Age 8",
             "height": "Height 122"
         },
@@ -12,7 +12,7 @@
             "id": 2,
             "filter": "children g12",
             "name": "Kym Polina",
-            "img": "app/images/photo4.jpg",
+            "img": "images/photo4.jpg",
             "age": "Age 11",
             "height": "Height 138"
         },
@@ -20,7 +20,7 @@
             "id": 3,
             "filter": "children g12",
             "name": "Stasuk Sofiya",
-            "img": "app/images/photo5.jpg",
+            "img": "images/photo5.jpg",
             "age": "Age 12",
             "height": "Height 146"
         },
@@ -28,7 +28,7 @@
             "id": 4,
             "filter": "children g21",
             "name": "Petrova Zlata",
-            "img": "app/images/photo6.jpg",
+            "img": "images/photo6.jpg",
             "age": "Age 14",
             "height": "Height 154"
         },
@@ -36,7 +36,7 @@
             "id": 5,
             "filter": "children g21",
             "name": "Selezneva Anastasia",
-            "img": "app/images/photo1.jpg",
+            "img": "images/photo1.jpg",
             "age": "Age 19",
             "height": "Height 166"
         }

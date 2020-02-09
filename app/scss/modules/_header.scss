@@ -1,0 +1,208 @@
+.menu {
+    @include size(100%, 8vh);
+    margin-top: 10px;
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    font-family: $OpenSans;
+    color: #222;
+    @media (max-width: $mobile) {
+        height: 12vh;
+    }
+    @media (max-width: $desktop) {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    
+
+    &__logo {
+        margin: auto;
+        font-size: 18px;
+        grid-column: 1;
+        text-align: center;
+        color: #222;
+        transition: all .5s;
+        &:hover {
+            color: $hover;
+            text-decoration: none;
+        }
+        @media (max-width: $mobile) {
+            grid-column: 1/3;
+            margin-left: 3px;
+            margin-top: 0;
+        }
+    }
+    &__margo {
+        font-size: 30px;
+    }
+
+    &__list {
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 18px;
+        text-align: center;
+        margin-top: 15px;
+        transition: all .3s;
+    }
+    &__items{
+        text-decoration: none;
+        color: #222;
+        transition: all .3s;
+        &:hover {
+            color: $hover;
+            text-decoration: none;
+        }
+    }
+    &__items1 {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    &__items2 {
+        grid-row: 1;
+        grid-column: 2;
+    }
+    &__items3 {
+        grid-row: 1;
+        grid-column: 3;
+    }
+    &__items4 {
+        grid-row: 1;
+        grid-column: 4;
+    }
+    &__soc {
+        grid-column: 3;
+        text-align: right;
+        padding-top: 15px;
+        @media (max-width: $mobile) {
+            display: none;
+        }
+    }
+    &__socset {
+        text-decoration: none;
+        color: #222;
+    }
+    &__icon{
+        font-size: 29px;
+        margin-right: 10px;
+        transition: all .3s;
+        &:hover {
+            color: $hover;
+            text-decoration: none;
+        }
+        @media (max-width: $desktop) {
+            font-size: 24px;
+        }
+    }
+
+
+    &__input {
+        display: none;
+    }
+    &__menu {
+        display: none;
+        position: fixed;
+        top: 20px;
+        right: 3%;
+        z-index: 99;
+        padding: 10px;
+        transition: all .5s;
+
+        @media (max-width: $mobile) {
+            display: block;
+        }
+    }
+
+
+    &__burger {
+        @include size(32px, 20px);
+        display: block;
+        position: relative;
+        transition: all .5s;
+
+        &::before, &::after {
+            content: '';
+            @include size(100%, 2px);
+            background: $hover;
+            border-radius: 2px;
+            position: absolute;
+            top: 0;
+            transition: all .5s;
+        }
+
+        &::after {
+            top: calc(100% - 2px);
+        }
+    }
+    &__burger span {
+        @include size(100%, 2px);
+        background: $hover;
+        border-radius: 2px;
+        position: absolute;
+        top: 50%;
+        display: block;
+        transform: translateY(-50%);
+        transition: all .5s;
+    }
+
+}
+
+
+    .menu__input:checked ~ .menu__logo {
+        color: #fff;
+        z-index: 20;
+    }
+
+    .menu__input:checked + .menu__menu .menu__burger span {
+        display: none;
+        background-color: #fff;
+    }
+    
+    .menu__input:checked + .menu__menu .menu__burger::before {
+        transform: rotate(45deg);
+        top: 0;
+        background-color: #fff;
+
+
+    }
+    
+    .menu__input:checked + .menu__menu .menu__burger::after {
+        transform: rotate(-45deg);
+        top: 0;
+        background-color: #fff;
+    }
+    
+    .menu__input:checked ~ .menu__list {
+        right: 0;
+    }
+    .menu__input:checked ~ .footer__menu {
+        right: 0;
+    }
+
+    @media (max-width: $mobile) {
+        .menu__list{
+            position: fixed;
+            top: 0;
+            right: 100%;
+            z-index: 12;
+            width: 100%;
+            height: 100%;
+            margin: 0 0;
+            background:$hover;
+            opacity: 0.9;
+            transition: all .3s;
+            display: block;
+            padding-top: 30%;
+            color: #222;
+            font-family: $Corm;
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 1.5;
+            :active, :focus, :hover {
+                color: #fff;
+            }
+        }
+
+        .menu__icon {
+            font-size: 23px;
+        }
+    }
