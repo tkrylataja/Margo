@@ -6,7 +6,7 @@
             "name": "Globenko Anita",
             "img": "app/images/photo3.jpg",
             "age": "Age 8",
-            "height": "Height 122",
+            "height": "Height 122"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "name": "Kym Polina",
             "img": "app/images/photo4.jpg",
             "age": "Age 11",
-            "height": "Height 138",
+            "height": "Height 138"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "name": "Stasuk Sofiya",
             "img": "app/images/photo5.jpg",
             "age": "Age 12",
-            "height": "Height 146",
+            "height": "Height 146"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "name": "Petrova Zlata",
             "img": "app/images/photo6.jpg",
             "age": "Age 14",
-            "height": "Height 154",
+            "height": "Height 154"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "name": "Selezneva Anastasia",
             "img": "app/images/photo1.jpg",
             "age": "Age 19",
-            "height": "Height 166",
+            "height": "Height 166"
         }
     ]
 }
