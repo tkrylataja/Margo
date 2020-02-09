@@ -20,7 +20,7 @@
 		});
 
 		function drawCatalog(models) {
-			let catalogDOM = `<a href="#" class="catalog__photo" data-id="${models.id}">
+			let catalogDOM = `<a href="${models.url}.html" class="catalog__photo" data-id="${models.id}">
 								<img src="${models.img}" class="catalog__img">
 								<div class="catalog__text">
 									<p class="catalog__texts catalog__name">${models.name}</p>
@@ -36,10 +36,15 @@
 
 		$('.filter').on('click', '.filter__button', function() {
 			let filterValue = $(this).attr('data-filter');
-
-			let $filteredModels = $models.filter(item => item.filter === filterValue);
-
+			let $filteredModels = $models.filter(item => item.filter.toLowerCase().includes(filterValue));
 			// TODO: drawDOM element
+
+			$('.catalog__photo').remove();
+
+			$filteredModels.forEach((model) => {
+				$('.catalog').append(drawCatalog(model));
+			});
 		});
 	});
 })(jQuery);
+

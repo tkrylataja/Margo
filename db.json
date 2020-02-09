@@ -2,43 +2,102 @@
     "models": [
         {
             "id": 1,
-            "filter": "children g12",
-            "name": "Globenko Anita",
-            "img": "images/photo3.jpg",
-            "age": "Age 8",
-            "height": "Height 122"
+            "filter": "children baby",
+            "name": "Sofi",
+            "img": "images/photo9.jpg",
+            "age": "Age 1",
+            "height": "Height 53",
+            "url": "sofi"
         },
         {
             "id": 2,
-            "filter": "children g12",
-            "name": "Kym Polina",
-            "img": "images/photo4.jpg",
-            "age": "Age 11",
-            "height": "Height 138"
+            "filter": "children baby boys",
+            "name": "Mark Potapov",
+            "img": "images/photo11.jpg",
+            "age": "Age 2",
+            "height": "Height 82",
+            "url": "mark"
         },
         {
             "id": 3,
             "filter": "children g12",
-            "name": "Stasuk Sofiya",
-            "img": "images/photo5.jpg",
-            "age": "Age 12",
-            "height": "Height 146"
+            "name": "Globenko Anita",
+            "img": "images/photo3.jpg",
+            "age": "Age 8",
+            "height": "Height 122",
+            "url": "globenko"
         },
         {
             "id": 4,
+            "filter": "children g12",
+            "name": "Kym Polina",
+            "img": "images/photo4.jpg",
+            "age": "Age 11",
+            "height": "Height 138",
+            "url": "kym"
+        },
+        {
+            "id": 5,
+            "filter": "children g12",
+            "name": "Stasuk Sofiya",
+            "img": "images/photo5.jpg",
+            "age": "Age 12",
+            "height": "Height 146",
+            "url": "statuk"
+        },
+        {
+            "id": 6,
             "filter": "children g21",
             "name": "Petrova Zlata",
             "img": "images/photo6.jpg",
             "age": "Age 14",
-            "height": "Height 154"
+            "height": "Height 154",
+            "url": "petrova"
         },
         {
-            "id": 5,
+            "id": 7,
             "filter": "children g21",
             "name": "Selezneva Anastasia",
             "img": "images/photo1.jpg",
             "age": "Age 19",
-            "height": "Height 166"
+            "height": "Height 166",
+            "url": "selezneva"
+        },
+        {
+            "id": 8,
+            "filter": "family sisters",
+            "name": "Kozar",
+            "img": "images/photo8.jpg",
+            "age": "Sisters",
+            "height": "",
+            "url": "kozar"
+        },
+        {
+            "id": 9,
+            "filter": "children g6",
+            "name": "Sonya ",
+            "img": "images/photo10.jpg",
+            "age": "Age 3",
+            "height": "Height 98",
+            "url": "sonya"
+        },
+        {
+            "id": 10,
+            "filter": "family brothers",
+            "name": "Fedyshych",
+            "img": "images/photo12.jpg",
+            "age": "Family look",
+            "height": "",
+            "url": "fedyshych"
+        },
+        {
+            "id": 11,
+            "filter": "family",
+            "name": "Onoprienko",
+            "img": "images/photo7.jpg",
+            "age": "Fany family",
+            "height": "",
+            "url": "onoprienko"
         }
     ]
 }
