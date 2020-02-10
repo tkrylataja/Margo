@@ -2,7 +2,7 @@
     "models": [
         {
             "id": 1,
-            "filter": "children baby",
+            "filter": "children all baby",
             "name": "Sofi",
             "img": "images/photo9.jpg",
             "age": "Age 1",
@@ -11,7 +11,7 @@
         },
         {
             "id": 2,
-            "filter": "children baby boys",
+            "filter": "children all boys",
             "name": "Mark Potapov",
             "img": "images/photo11.jpg",
             "age": "Age 2",
@@ -20,7 +20,7 @@
         },
         {
             "id": 3,
-            "filter": "children g12",
+            "filter": "children all g12",
             "name": "Globenko Anita",
             "img": "images/photo3.jpg",
             "age": "Age 8",
@@ -29,7 +29,7 @@
         },
         {
             "id": 4,
-            "filter": "children g12",
+            "filter": "children all g12",
             "name": "Kym Polina",
             "img": "images/photo4.jpg",
             "age": "Age 11",
@@ -38,7 +38,7 @@
         },
         {
             "id": 5,
-            "filter": "children g12",
+            "filter": "children all g12",
             "name": "Stasuk Sofiya",
             "img": "images/photo5.jpg",
             "age": "Age 12",
@@ -47,7 +47,7 @@
         },
         {
             "id": 6,
-            "filter": "children g21",
+            "filter": "children all g21",
             "name": "Petrova Zlata",
             "img": "images/photo6.jpg",
             "age": "Age 14",
@@ -56,7 +56,7 @@
         },
         {
             "id": 7,
-            "filter": "children g21",
+            "filter": "children all g21",
             "name": "Selezneva Anastasia",
             "img": "images/photo1.jpg",
             "age": "Age 19",
@@ -65,7 +65,7 @@
         },
         {
             "id": 8,
-            "filter": "family sisters",
+            "filter": "family all sisters",
             "name": "Kozar",
             "img": "images/photo8.jpg",
             "age": "Sisters",
@@ -74,7 +74,7 @@
         },
         {
             "id": 9,
-            "filter": "children g6",
+            "filter": "children all g6",
             "name": "Sonya ",
             "img": "images/photo10.jpg",
             "age": "Age 3",
@@ -83,7 +83,7 @@
         },
         {
             "id": 10,
-            "filter": "family brothers",
+            "filter": "family all brothers",
             "name": "Fedyshych",
             "img": "images/photo12.jpg",
             "age": "Family look",
@@ -92,7 +92,7 @@
         },
         {
             "id": 11,
-            "filter": "family",
+            "filter": "family all",
             "name": "Onoprienko",
             "img": "images/photo7.jpg",
             "age": "Fany family",
