@@ -12,7 +12,9 @@
 	<!--build:css css/styles.min.css-->
 	<link rel="stylesheet" href="css/libs/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fonts/icomoon/style.css">
+	<link rel="stylesheet" href="css/libs/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="css/global.min.css">
+	
 	<!--endbuild-->
 
 	<!--[if lt IE 9]>
@@ -20,115 +22,121 @@
 	<![endif]-->
 </head>
 <body>
-	<header class="header">
-		<nav class="menu container">
+	<div class="wrapper">
 
-			<input type="checkbox" id="menu" class="menu__input">
-			<label for="menu" class="menu__menu">
-				<i class="menu__burger"><span></span></i>
-			</label>
-
-			<div class="footer__menu">
-				<div class="footer__adress">
-					<div class="footer__contacts">
-						Tel.(office):
-						<a href="tel:+380955315231" class="footer__a">+380955315231</a>
+		<header class="header">
+			<nav class="menu container">
+	
+				<input type="checkbox" id="menu" class="menu__input">
+				<label for="menu" class="menu__menu">
+					<i class="menu__burger"><span></span></i>
+				</label>
+	
+				<div class="footer__menu">
+					<div class="footer__adress">
+						<div class="footer__contacts">
+							Tel.(office):
+							<a href="tel:+380955315231" class="footer__a">+380955315231</a>
+						</div>
+						<div class="footer__contacts">
+							E-mail:
+							<a href="mailto:Princess.org.ua@gmail.com" class="footer__a">princess.org.ua@gmail.com</a>
+						</div>
 					</div>
-					<div class="footer__contacts">
-						E-mail:
-						<a href="mailto:Princess.org.ua@gmail.com" class="footer__a">princess.org.ua@gmail.com</a>
+				
+					<div class="footer__soc">
+						<p>Follow us:</p>
+						<div class="footer__icon">
+							<a href="https://instagram.com/margoschool?igshid=1hofqauzhm5r0" target="_blank" class="menu__socset menu__icon">
+								<i class="icon-instagram menu__icon"></i>
+							</a>
+							<a href="https://www.facebook.com/groups/1389856824376193/" target="_blank" class="menu__socset menu__icon">
+								<i class="icon-Vector"></i>
+							</a>
+						</div>
 					</div>
 				</div>
-			
-				<div class="footer__soc">
-					<p>Follow us:</p>
-					<div class="footer__icon">
-						<a href="https://instagram.com/margoschool?igshid=1hofqauzhm5r0" target="_blank" class="menu__socset menu__icon">
-							<i class="icon-instagram menu__icon"></i>
-						</a>
-						<a href="https://www.facebook.com/groups/1389856824376193/" target="_blank" class="menu__socset menu__icon">
-							<i class="icon-Vector"></i>
-						</a>
-					</div>
+	
+				<a href="index.html" class="menu__logo">
+					<p class="menu__margo">MAR-GO</p>
+					<p>SCHOOL</p>
+				</a>
+				<ul class="menu__list">
+					<li class="menu__items1">
+						<a href="models.html" class="menu__items">Models</a>
+					</li>
+					<li class="menu__items2">
+						<a href="#" class="menu__items">Be a Model</a>
+					</li>
+					<li class="menu__items3">
+						<a href="#" class="menu__items">About Us</a>
+					</li>
+					<li class="menu__items4">
+						<a href="#" class="menu__items">Contact Us</a>
+					</li>
+				</ul>
+				<div class="menu__soc">
+					<a href="https://instagram.com/margoschool?igshid=1hofqauzhm5r0" target="_blank" class="menu__socset menu__icon">
+						<i class="icon-instagram menu__icon"></i>
+					</a>
+					<a href="https://www.facebook.com/groups/1389856824376193/" target="_blank" class="menu__socset menu__icon">
+						<i class="icon-Vector"></i>
+					</a>
+				</div>
+			</nav>
+		</header>
+	
+		<main class="main container">
+			<div class="home">
+				<div class="home__text">
+					<a href="models.html" class="home__name">Children</a>
+					<ul class="home__list">
+						<li class="home__item"> 
+							<a href="models.html" class="home__items"> Baby </a>
+						</li>
+						<li class="home__item"> 
+							<a href="models.html" class="home__items"> Girls 3-6 </a>
+						</li>
+						<li class="home__item"> 
+							<a href="models.html" class="home__items"> Girls 7-12 </a>
+						</li>
+						<li class="home__item"> 
+							<a href="models.html" class="home__items"> Girls 13-21 </a>
+						</li>
+						<li class="home__item"> 
+							<a href="models.html" class="home__items"> Boys </a>
+						</li>
+					</ul>
+				</div>
+				<div class="home__photo">
+					<img src="images/child.jpg" alt="photo" class="home__img">
 				</div>
 			</div>
+	
+			<div class="home1">
+				<div class="home__photo">
+					<img src="images/mahter.jpg" alt="photo" class="home1__img">
+				</div>
+				<div class="home__text--1">
+					<a href="models.html" class="home__name">Families</a>
+					<ul class="home__list">
+						<li class="home__item"> 
+							<a href="models.html" class="home__items home__items--1"> Family </a>
+						</li>
+						<li class="home__item"> 
+							<a href="models.html" class="home__items home__items--1"> Sisters </a>
+						</li>
+						<li class="home__item"> 
+							<a href="models.html" class="home__items home__items--1"> Brothers </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
 
-			<a href="index.html" class="menu__logo">
-				<p class="menu__margo">MAR-GO</p>
-				<p>SCHOOL</p>
-			</a>
-			<ul class="menu__list">
-				<li class="menu__items1">
-					<a href="models.html" class="menu__items">Models</a>
-				</li>
-				<li class="menu__items2">
-					<a href="#" class="menu__items">Be a Model</a>
-				</li>
-				<li class="menu__items3">
-					<a href="#" class="menu__items">About Us</a>
-				</li>
-				<li class="menu__items4">
-					<a href="#" class="menu__items">Contact Us</a>
-				</li>
-			</ul>
-			<div class="menu__soc">
-				<a href="https://instagram.com/margoschool?igshid=1hofqauzhm5r0" target="_blank" class="menu__socset menu__icon">
-					<i class="icon-instagram menu__icon"></i>
-				</a>
-				<a href="https://www.facebook.com/groups/1389856824376193/" target="_blank" class="menu__socset menu__icon">
-					<i class="icon-Vector"></i>
-				</a>
-			</div>
-		</nav>
-	</header>
+		<div class="push"></div>
+	</div>
 
-	<main class="main container">
-		<div class="home">
-			<div class="home__text">
-				<a href="models.html" class="home__name">Children</a>
-				<ul class="home__list">
-					<li class="home__item"> 
-						<a href="models.html" class="home__items"> Baby </a>
-					</li>
-					<li class="home__item"> 
-						<a href="models.html" class="home__items"> Girls 3-6 </a>
-					</li>
-					<li class="home__item"> 
-						<a href="models.html" class="home__items"> Girls 7-12 </a>
-					</li>
-					<li class="home__item"> 
-						<a href="models.html" class="home__items"> Girls 13-21 </a>
-					</li>
-					<li class="home__item"> 
-						<a href="models.html" class="home__items"> Boys </a>
-					</li>
-				</ul>
-			</div>
-			<div class="home__photo">
-				<img src="images/child.jpg" alt="photo" class="home__img">
-			</div>
-		</div>
-
-		<div class="home1">
-			<div class="home__photo">
-				<img src="images/mahter.jpg" alt="photo" class="home__img">
-			</div>
-			<div class="home__text--1">
-				<a href="models.html" class="home__name">Families</a>
-				<ul class="home__list">
-					<li class="home__item"> 
-						<a href="models.html" class="home__items home__items--1"> Family </a>
-					</li>
-					<li class="home__item"> 
-						<a href="models.html" class="home__items home__items--1"> Sisters </a>
-					</li>
-					<li class="home__item"> 
-						<a href="models.html" class="home__items home__items--1"> Brothers </a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</main>
 
 	<footer class="footer">
 		<div class="footer__contact">
@@ -167,7 +175,7 @@
 	<!--build:js js/main.min.js -->
 	<script src="js/libs/jquery.min.js"></script>
 	<script src="js/libs/bootstrap.bundle.min.js"></script>
-	<script src="js/libs/isotope.pkgd.min.js"></script>
+	<script src="js/libs/jquery.fancybox.min.js"></script>
 	<script src="js/main.js"></script>
 	<!--endbuild-->
 </body>

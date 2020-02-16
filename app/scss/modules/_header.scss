@@ -1,9 +1,8 @@
 .menu {
     @include size(100%, 8vh);
-    margin-top: 10px;
-    padding-top: 15px;
+    padding-top: 25px;
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
     font-family: $OpenSans;
     color: #222;
     @media (max-width: $mobile) {

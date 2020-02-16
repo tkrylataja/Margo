@@ -18,7 +18,7 @@
         margin-bottom: 15px;
     }
 
-    &:hover .home__img {
+    &:hover .home1__img {
         transform: scale(1.2);
         filter: blur(0);
         z-index: 9;
@@ -36,8 +36,27 @@
     &:hover .home__items {
         text-decoration: none;
     }
-}
 
+    &__img {
+        width: 100%;
+        filter: blur(.8px);
+        transition: all .5s;
+
+        @media (max-width: $mobile) {
+            max-height: none;
+            opacity: .7;
+            filter: blur(0px);
+        }
+        @media (max-width: $desktop) {
+            max-height: none;
+            opacity: .8;
+            filter: blur(0px);
+        }
+    }
+}
+.blur {
+    filter: blur(0px);
+}
 
 .home {
     grid-column: 1;

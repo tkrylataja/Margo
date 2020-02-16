@@ -45,6 +45,25 @@
 				$('.catalog').append(drawCatalog(model));
 			});
 		});
+
+		$('.cards__photo').fancybox({
+			buttons: [
+				"fullScreen",
+				"download",
+				"thumbs",
+				"close"
+			],
+			animationEffect: "zoom-in-out",
+			animationDuration: 900,
+			transitionEffect: "circular",
+			transitionDuration: 800,
+			loop: true,
+		});
+
+		$('.home1').on('mouseover', function() {
+			$('.home__img').addClass('blur');
+		});
+
 	});
 })(jQuery);
 

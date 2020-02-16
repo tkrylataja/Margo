@@ -1,0 +1,96 @@
+.cards {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: $OpenSans;
+    font-size: 18px;
+
+    margin: 60px 0 0;
+
+    &__text {
+        grid-column: 1;
+        @include size(100%, 100%);
+    }
+
+    &__back {
+        text-decoration: none;
+        font-family: $OpenSans;
+        color: #828282;
+
+        &:hover {
+            color: $hover;
+            text-decoration: none;
+        }
+    }
+
+    &__name {
+        margin-top: 175px;
+        font-family: $Corm;
+        font-size: 48px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    &__infa {
+        line-height: 1.5;
+        margin-bottom: 175px;
+    }
+
+    &__video{
+        color: #828282;
+        &:hover {
+            color: $hover;
+            text-decoration: none;
+        }
+    }
+
+    &__galery {
+        grid-column: 2;
+        @include size(100%, 100%);
+    }
+
+    &__glPhoto{
+        height: 625px;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    &__galeryMin {
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+        margin-top: 5px;
+    }
+
+    &__photo {
+        display: block;
+        overflow: hidden;
+        @include size(100%);
+        background-size: cover;
+        background-position: center;
+
+        & img {
+            @include size(100%);
+        }
+    }
+}
+
+.video {
+border: 1px solid #828282;
+padding: 15px;
+position: relative;
+margin: 110px 0 50px;
+
+    &__text {
+        position: absolute;
+        top: -35px;
+        font-family: $Corm;
+        color: $hover;
+        font-size: 48px;
+        background: #fff;
+    }
+    &__vid {
+        width: 100%;
+    }
+
+}
