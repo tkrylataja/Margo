@@ -14,6 +14,7 @@ const terser = require('gulp-terser');
 const gulpIf = require('gulp-if');
 const wait = require('gulp-wait');
 const notify = require('gulp-notify');
+const slick = require('slick')
 
 
 let paths = {
@@ -47,14 +48,18 @@ let sources = {
 	js: [
 		'./node_modules/jquery/dist/jquery.min.js',
 		'./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
-		'./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js'
+		'./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
+		'./node_modules/slick/index.js',
+		'./node_modules/slick/finder.js',
+		'./node_modules/slick/parser.js'
+		
 	]
 };
 
 // Modules
 function modulesCSS() {
 	return gulp.src(sources.css)
-			   .pipe(gulp.dest('app/css/libs'));
+				.pipe(gulp.dest('app/css/libs'));
 }
 
 function modulesJS() {

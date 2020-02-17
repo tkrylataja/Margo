@@ -54,9 +54,6 @@
         }
     }
 }
-.blur {
-    filter: blur(0px);
-}
 
 .home {
     grid-column: 1;
@@ -187,3 +184,8 @@
 // @media (max-width: $mobile) {
 //     display: none;
 // }
+
+
+.blur {
+    filter: blur(2px);
+}

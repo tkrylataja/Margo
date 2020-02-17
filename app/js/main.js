@@ -63,7 +63,24 @@
 		$('.home1').on('mouseover', function() {
 			$('.home__img').addClass('blur');
 		});
+		$('.home1').on('mouseleave', function() {
+			$('.home__img').removeClass('blur');
+		});
 
+		$('.home').on('mouseover', function() {
+			$('.home1__img').addClass('blur');
+		});
+		$('.home').on('mouseleave', function() {
+			$('.home1__img').removeClass('blur');
+		});
+
+		//slider
+
+		$('.slider').slick({
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			dots: true
+		});
 	});
 })(jQuery);
 

@@ -1,0 +1,104 @@
+.titleForm {
+    font-family: $Corm;
+    color: #222;
+    font-size: 48px;
+    padding-top: 25px;
+    margin-bottom: 40px;
+    text-align: end;
+}
+
+.form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: $OpenSans;
+    font-size: 18px;
+
+
+    &__section {
+        border-left: 1px solid $hover;
+        padding-bottom: 15px;
+    }
+    &__section--1 {
+        border-right: 1px solid $hover;
+    }
+
+    &__input {
+        padding: 10px 0;
+        margin: 0 15px 25px;
+        border-bottom: 1px solid #828282;
+        color: #828282;
+        width: 85%;
+
+        &:hover {
+            border-bottom: 1px solid $hover;
+            color: $hover;
+        }
+        &::placeholder:hover {
+            color: $hover;
+        }
+    }
+
+    &__photo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    &__foto {
+        font-family: $Corm;
+        color: #222;
+        font-size: 42px;
+    }
+
+    &__add {
+        font-family: $OpenSans;
+        font-size: 18px;
+        color: #828282;
+
+        &:hover {
+            color: $hover;
+            text-decoration: none;
+        }
+    }
+
+    &__exampl {
+        font-family: $Corm;
+        color: #222;
+        font-size: 48px;
+        text-align: end;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    &__examplePhoto {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 100px;
+        position: relative;
+    }
+
+    &__img {
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__btn {
+        font-family: $OpenSans;
+        font-size: 24px;
+        color: #828282;
+        border: 1px solid #828282;
+        position: absolute;
+        left: calc(50% - 95px);
+        bottom: -70px;
+        padding: 10px 20px;
+
+        &:hover {
+            border: 1px solid $hover;
+            color: $hover;
+            text-decoration: none;
+        }
+    }
+}

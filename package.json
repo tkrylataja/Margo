@@ -12,7 +12,8 @@
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "slick": "^1.12.2"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.4",
