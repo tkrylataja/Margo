@@ -5,6 +5,11 @@
     padding-top: 25px;
     margin-bottom: 40px;
     text-align: end;
+
+    @media (max-width: $mobile) {
+        margin-bottom: 5px;
+        padding-top: 10px;
+    }
 }
 
 .form {
@@ -13,6 +18,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     font-family: $OpenSans;
     font-size: 18px;
+    @media (max-width: $mobile) {
+        grid-template-columns: 1fr;
+        grid-row: 3;
+    }
 
 
     &__section {
@@ -21,14 +30,18 @@
     }
     &__section--1 {
         border-right: 1px solid $hover;
+        @media (max-width: $mobile) {
+            border-right: none;
+        }
     }
 
     &__input {
         padding: 10px 0;
-        margin: 0 15px 25px;
+        margin: 0 30px 25px;
         border-bottom: 1px solid #828282;
         color: #828282;
-        width: 85%;
+        width: 84%;
+        transition: all .5s;
 
         &:hover {
             border-bottom: 1px solid $hover;
@@ -44,23 +57,23 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 50px;
+        position: relative;
+        @media (max-width: $mobile) {
+        margin-top: 20px;
+        margin-left: 15px;
+        }
+    
     }
     &__foto {
         font-family: $Corm;
         color: #222;
         font-size: 42px;
-    }
 
-    &__add {
-        font-family: $OpenSans;
-        font-size: 18px;
-        color: #828282;
-
-        &:hover {
-            color: $hover;
-            text-decoration: none;
+        @media (max-width: $mobile) {
+            display: none;
         }
     }
+
 
     &__exampl {
         font-family: $Corm;
@@ -69,6 +82,11 @@
         text-align: end;
         margin-top: 50px;
         margin-bottom: 10px;
+        @media (max-width: $mobile) {
+        margin-top: 15px;
+        font-size: 40px;
+        }
+    
     }
 
     &__examplePhoto {
@@ -78,11 +96,23 @@
         height: 600px;
         margin-bottom: 100px;
         position: relative;
+
+        @media (max-width: $mobile) {
+            grid-template-columns: 1fr;
+            height: 1000px;
+            width: 80%;
+            margin: auto;
+        }
+    
     }
 
     &__img {
         background-size: cover;
         background-position: center;
+        @media (max-width: $mobile) {
+        background-position: center 0;
+        }
+    
     }
 
     &__btn {
@@ -94,6 +124,10 @@
         left: calc(50% - 95px);
         bottom: -70px;
         padding: 10px 20px;
+        transition: all .5s;
+        @media (max-width: $mobile) {
+            margin-bottom: 15px;
+        }
 
         &:hover {
             border: 1px solid $hover;
@@ -101,4 +135,27 @@
             text-decoration: none;
         }
     }
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    z-index: -1;
+    right: 1px;
+}
+.inputfile + label {
+    font-family: $OpenSans;
+    font-size: 18px;
+    color: #828282;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    color: $hover;
 }

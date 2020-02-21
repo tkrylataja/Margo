@@ -1,10 +1,17 @@
 .wrapper {
     min-height: 100vh;
-    margin-bottom: -12vh;
+    margin-bottom: -17vh;
+    @media (max-width: $mobile) {
+        margin-bottom: 0;
+    }
     }
 
 .footer, .push{
-    height: 12vh;
+    height: 17vh;
+    @media (max-width: $mobile) {
+        height: 0;
+    }
+
 }
 .footer {
     width: 100%;
@@ -21,7 +28,6 @@
 
     &__contact {
         display: flex;
-
         justify-content: center;
         line-height: 1.5;
     }
@@ -76,7 +82,7 @@
     .footer__menu {
         position: fixed;
         z-index: 20;
-        top: 83%;
+        top: 85%;
         right: 100%;
         font-size: 16px;
         display: block;
@@ -87,5 +93,8 @@
     }
     .footer__soc {
         margin-top: 10px;
+    }
+    .footer__contacts {
+        margin-bottom: 10px;
     }
 }

@@ -5,16 +5,17 @@
 	<meta name="description" content="Starter">
 	<meta name="author" content="Admin">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<title>Starter</title>
+	<title>Mar-Go</title>
 
-	<link rel="icon" href="images/favicon.png">
+	<link rel="icon" href="images/favicon.ico">
 
 	<!--build:css css/styles.min.css-->
 	<link rel="stylesheet" href="css/libs/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fonts/icomoon/style.css">
 	<link rel="stylesheet" href="css/libs/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/libs/slick.css">
+	<link rel="stylesheet" href="css/libs/slick-theme.css">
 	<link rel="stylesheet" href="css/global.min.css">
-	
 	<!--endbuild-->
 
 	<!--[if lt IE 9]>
@@ -72,7 +73,7 @@
 						<a href="aboutUs.html" class="menu__items">About Us</a>
 					</li>
 					<li class="menu__items4">
-						<a href="#" class="menu__items">Contact Us</a>
+						<a href="contact.html" class="menu__items">Contact Us</a>
 					</li>
 				</ul>
 				<div class="menu__soc">
@@ -99,28 +100,43 @@
                 </div>
 			</div>
 
-
-			<h1 class="sliderName">Project</h1>
-			<div class="slider">
-				<div class="slider__item">
-					<div class="slider__video">
-						<iframe src="https://www.youtube.com/embed/519lqGmGs28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="slborder">
+				<h1 class="slborder__name">Projects</h1>
+				<div class="slider">
+					<div class="slider__item">
+						<div class="slider__video">
+							<iframe src="https://www.youtube.com/embed/519lqGmGs28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="slider__vid"></iframe>
+						</div>
+						<p class="slider__text">Принц і Принцеса Країни 2017</p>
 					</div>
-					<p class="slider__text">Принц і Принцеса Країни 2017</p>
-				</div>
-				<div class="slider__item">
-					<div class="slider__video">
-						<iframe src="https://www.youtube.com/embed/519lqGmGs28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="slider__item">
+						<div class="slider__video">
+							<iframe src="https://www.youtube.com/embed/4vQviXu_rrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="slider__vid"></iframe>
+						</div>
+						<p class="slider__text">Принц і Принцеса Країни 2018</p>
 					</div>
-					<p class="slider__text">Принц і Принцеса Країни 2017</p>
-				</div>
-				<div class="slider__item">
-					<div class="slider__video">
-						<iframe src="https://www.youtube.com/embed/519lqGmGs28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="slider__item">
+						<div class="slider__video">
+							<iframe src="https://www.youtube.com/embed/aBqT826pZaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="slider__vid"></iframe>
+						</div>
+						<p class="slider__text">Fashion Show Top point 2018</p>
 					</div>
-					<p class="slider__text">Принц і Принцеса Країни 2017</p>
+					<div class="slider__item">
+						<div class="slider__video">
+							<iframe src="https://www.youtube.com/embed/EdTDS7YzCVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="slider__vid"></iframe>
+						</div>
+						<p class="slider__text">International Fairytale Contest "Christmas Angel 2017"</p>
+					</div>
+					<div class="slider__item">
+						<div class="slider__video">
+							<iframe src="https://www.youtube.com/embed/2qBdK6E4208" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="slider__vid"></iframe>
+						</div>
+						<p class="slider__text">Бал Ангелов 2016, Полтава</p>
+					</div>
+					
 				</div>
 			</div>
+
 			
 
         </div>
@@ -165,12 +181,12 @@
 	</footer>
 
 	<!--build:js js/main.min.js -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHDxuB6qEL9iyGD3iOU8V0EnixtMp_a_k&callback=initMap"
+    async defer></script>
 	<script src="js/libs/jquery.min.js"></script>
 	<script src="js/libs/bootstrap.bundle.min.js"></script>
 	<script src="js/libs/jquery.fancybox.min.js"></script>
-	<script src="js/libs/index.js"></script>
-	<script src="js/libs/finder.js"></script>
-	<script src="js/libs/parser.js"></script>
+	<script src="js/libs/slick.min.js"></script>
 	<script src="js/main.js"></script>
 	<!--endbuild-->
 </body>

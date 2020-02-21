@@ -9,7 +9,7 @@
         height: 12vh;
     }
     @media (max-width: $desktop) {
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 3fr 1fr;
     }
     
 
@@ -149,6 +149,7 @@
     .menu__input:checked ~ .menu__logo {
         color: #fff;
         z-index: 20;
+        position: fixed;
     }
 
     .menu__input:checked + .menu__menu .menu__burger span {

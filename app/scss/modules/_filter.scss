@@ -11,24 +11,38 @@
         display: flex;
         margin-bottom: 15px;
         line-height: 1.7;
-
-        @media (max-width: $mobile) {
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
+        
         &::before {
             @include size(20px, 1px);
             content: '';
             background: #222;
             margin: 10px 15px 0;
         }
-    }
+
+        @media (max-width: $mobile) {
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            font-size: 14px;
+            line-height: 1.5;
+
+
+            .filter__button--1 {
+                font-size: 16px;
+            }
+            .filter__button--2 {
+                margin-left: 90px;
+            }
+
+            }
+        }
+
+    
     &__item {
         margin-right: 30px;
     }
     &__button {
         background-color: #fff;
+        transition: all .3s;
         
         &:hover, &:focus{
             color: $hover;

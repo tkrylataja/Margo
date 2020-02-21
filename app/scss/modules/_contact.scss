@@ -1,0 +1,76 @@
+.map {
+    margin-top: 40px ;
+    width: 100%;
+    height: 750px;
+    background: #222222;
+    @media (max-width: $mobile) {
+        margin-top: 90px;
+    }
+}
+
+.rel {
+    position: relative;
+}
+.contacts {
+    @include size(315px, 380px); 
+    background: #fff;
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    font-family: $OpenSans;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 20px;
+    line-height: 1.5;
+    @media (max-width: $mobile) {
+        border: 1px solid $hover;
+        top: -95px;
+        right: -10px;
+        font-size: 16px;
+        @include size(310px, 340px); 
+    }
+    
+    &__name {
+        color: $hover;
+        margin-top: 10px;
+    }
+    &__span {
+        font-weight: normal;
+        color: #222;
+        display: block;
+        margin-left: 30px;
+    }
+    &__a {
+        color: #222;
+        font-weight: normal;
+        transition: all .3s;
+        display: block;
+        margin-left: 30px;
+        &:hover {
+            text-decoration: none;
+            color: $hover;
+        }
+    }
+    &__socset {
+        color: $hover;
+        display: block;
+        margin-top: 10px;
+    }
+    &__p {
+        color: #222;
+        font-weight: normal;
+        transition: all .3s;
+        font-size: 18px;
+        display: inline-block;
+        &:hover {
+            text-decoration: none;
+            color: $hover;
+        }
+        @media (max-width: $mobile) {
+            font-size: 16px;
+        }
+        
+    }
+
+
+}
