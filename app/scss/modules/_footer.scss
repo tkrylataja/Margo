@@ -4,6 +4,10 @@
     @media (max-width: $mobile) {
         margin-bottom: 0;
     }
+
+    &__vspl {
+        position: relative;
+    }
     }
 
 .footer, .push{

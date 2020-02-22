@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
     @media (max-width: $desktop) {
         justify-content: space-around;
     }
@@ -16,6 +17,7 @@
         top: 0!important;
         text-decoration: none;
         margin-bottom: 25px;
+        animation: paint 2s;
 
         &:nth-child(4n) {
             margin-right: 0;
@@ -52,5 +54,16 @@
     }
     &__name {
         font-weight: normal;
+    }
+}
+
+@keyframes paint {
+    0% {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
     }
 }

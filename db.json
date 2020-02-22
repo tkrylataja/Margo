@@ -7,7 +7,7 @@
             "img": "images/photo9.jpg",
             "age": "Age 1",
             "height": "Height 53",
-            "url": "sofi"
+            "url": "globenko"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "img": "images/photo11.jpg",
             "age": "Age 2",
             "height": "Height 82",
-            "url": "mark"
+            "url": "globenko"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "img": "images/photo4.jpg",
             "age": "Age 11",
             "height": "Height 138",
-            "url": "kym"
+            "url": "globenko"
         },
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "img": "images/photo5.jpg",
             "age": "Age 12",
             "height": "Height 146",
-            "url": "statuk"
+            "url": "globenko"
         },
         {
             "id": 6,
@@ -52,7 +52,7 @@
             "img": "images/photo6.jpg",
             "age": "Age 14",
             "height": "Height 154",
-            "url": "petrova"
+            "url": "globenko"
         },
         {
             "id": 7,
@@ -61,7 +61,7 @@
             "img": "images/photo1.jpg",
             "age": "Age 19",
             "height": "Height 166",
-            "url": "selezneva"
+            "url": "globenko"
         },
         {
             "id": 8,
@@ -70,7 +70,7 @@
             "img": "images/photo8.jpg",
             "age": "Sisters",
             "height": "",
-            "url": "kozar"
+            "url": "globenko"
         },
         {
             "id": 9,
@@ -79,7 +79,7 @@
             "img": "images/photo10.jpg",
             "age": "Age 3",
             "height": "Height 98",
-            "url": "sonya"
+            "url": "globenko"
         },
         {
             "id": 10,
@@ -88,7 +88,7 @@
             "img": "images/photo12.jpg",
             "age": "Family look",
             "height": "",
-            "url": "fedyshych"
+            "url": "globenko"
         },
         {
             "id": 11,
@@ -97,7 +97,7 @@
             "img": "images/photo7.jpg",
             "age": "Fany family",
             "height": "",
-            "url": "onoprienko"
+            "url": "globenko"
         }
     ]
 }

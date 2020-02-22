@@ -16,7 +16,7 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="wrapper">
+	<div class="wrapper wrapper__vspl">
 
 		<header class="header">
 			<nav class="menu container">
@@ -79,54 +79,53 @@
 				</div>
 			</nav>
 		</header>
-	
-		<main class="main container">
-			<div class="home">
-				<div class="home__text">
-					<a href="models.html" class="home__name">Children</a>
-					<ul class="home__list">
-						<li class="home__item"> 
-							<a href="models.html" class="home__items"> Baby </a>
-						</li>
-						<li class="home__item"> 
-							<a href="models.html" class="home__items"> Girls 3-6 </a>
-						</li>
-						<li class="home__item"> 
-							<a href="models.html" class="home__items"> Girls 7-12 </a>
-						</li>
-						<li class="home__item"> 
-							<a href="models.html" class="home__items"> Girls 13-21 </a>
-						</li>
-						<li class="home__item"> 
-							<a href="models.html" class="home__items"> Boys </a>
-						</li>
-					</ul>
-				</div>
-				<div class="home__photo">
-					<img src="images/child.jpg" alt="photo" class="home__img">
-				</div>
+
+        <div class="container">
+            <h1 class="titleForm">Be a model</h1>
+            <div class="form">
+                <form action="#" class="form__section">
+                    <input type="text" name="name" placeholder="Name*" class="form__input">
+                    <input type="email" name="email" placeholder="Email" class="form__input">
+                    <input type="tel" name="tel" placeholder="Phone*" class="form__input">
+                    <input type="text" name="waist" placeholder="Waist" class="form__input">
+                </form>
+                <form action="#" class="form__section">
+                    <input type="text" name="eyes" placeholder="Eyes" class="form__input">
+                    <input type="text" name="age" placeholder="Age*" class="form__input">
+                    <input type="text" name="height" placeholder="Height" class="form__input">
+                    <input type="text" name="hips" placeholder="Hips" class="form__input">
+                </form>
+                <form action="#" class="form__section form__section--1">
+                    <input type="text" name="hair" placeholder="Hair" class="form__input">
+                    <input type="text" name="city" placeholder="City" class="form__input">
+                    <input type="text" name="bust" placeholder="Bust" class="form__input">
+                    <input type="text" name="shoes" placeholder="Shoes" class="form__input">
+                </form>
+            </div>
+            <div class="form__photo">
+                <h2 class="form__foto">And add your photo</h2>
+				<input type="file" name="file" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple />
+				<label for="file">+ Add photo</label>
+            </div>
+
+            <h2 class="form__exampl">Example</h2>
+            <div class="form__examplePhoto">
+                <div class="form__img" style="background-image: url(images/example1.jpg)"></div>
+                <div class="form__img" style="background-image: url(images/example2.jpg)"></div>
+                <div class="form__img" style="background-image: url(images/example3.jpg)"></div>
+
+                <a href="#" class="form__btn">SEND REQUEST</a>
 			</div>
-	
-			<div class="home1">
-				<div class="home__photo">
-					<img src="images/mahter.jpg" alt="photo" class="home1__img">
-				</div>
-				<div class="home__text--1">
-					<a href="models.html" class="home__name">Families</a>
-					<ul class="home__list">
-						<li class="home__item"> 
-							<a href="models.html" class="home__items home__items--1"> Family </a>
-						</li>
-						<li class="home__item"> 
-							<a href="models.html" class="home__items home__items--1"> Sisters </a>
-						</li>
-						<li class="home__item"> 
-							<a href="models.html" class="home__items home__items--1"> Brothers </a>
-						</li>
-					</ul>
-				</div>
+			
+			<div class="vspl">
+				<p class="vspl__text">Спасибо за Вашу заявку, мы Вам обязательно перезвоним</p>
+				<img src="images/sajmona.jpg" alt="senx" class="vspl__img">
 			</div>
-		</main>
+
+
+
+        </div>
+
 
 		<div class="push"></div>
 	</div>

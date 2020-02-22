@@ -187,7 +187,7 @@ function initMap() {
 			}
 		  ]
 		}
-	  ]
+		]
 
     map = new google.maps.Map(document.getElementById('map'), {
 	    center: coords,
@@ -326,6 +326,14 @@ Array.prototype.forEach.call( inputs, function( input )
 					}
 				}
 			]
+		});
+
+		$('.form__btn').on('click', function() {
+			let url = "index.html";
+			$('.vspl').css('display', 'block');
+
+			setTimeout(() => 
+				$(location).attr('href',url), 3000);
 		});
 	});
 })(jQuery);

@@ -124,7 +124,7 @@
         left: calc(50% - 95px);
         bottom: -70px;
         padding: 10px 20px;
-        transition: all .5s;
+        transition: all .3s;
         @media (max-width: $mobile) {
             margin-bottom: 15px;
         }
@@ -158,4 +158,32 @@
 .inputfile:focus + label,
 .inputfile + label:hover {
     color: $hover;
+}
+
+.vspl {
+    @include size(460px, 200px);
+    position: absolute;
+    border: 1px solid $hover;
+    background: #fff;
+    top: 200px;
+    right: calc(50% - 230px);
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 155px 59px rgba(138,135,138,1);
+    -moz-box-shadow: 0px 0px 155px 59px rgba(138,135,138,1);
+    box-shadow: 0px 0px 155px 59px rgba(138,135,138,1);
+    display: none;
+
+    &__text {
+        font-family: $OpenSans;
+        font-size: 18px;
+        color: #222;
+        margin-top: 15px;
+        line-height: 1.5;
+    }
+    &__img {
+        width: 100px;
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+    }
 }

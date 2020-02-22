@@ -5,9 +5,9 @@
 	<meta name="description" content="Starter">
 	<meta name="author" content="Admin">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<title>Starter</title>
+	<title>Mar-Go</title>
 
-	<link rel="icon" href="images/favicon.png">
+	<link rel="icon" href="images/favicon.ico">
 
 	<link rel="stylesheet" href="css/styles.min.css">
 
@@ -58,13 +58,13 @@
 					<a href="models.html" class="menu__items">Models</a>
 				</li>
 				<li class="menu__items2">
-					<a href="#" class="menu__items">Be a Model</a>
+					<a href="beamodel.html" class="menu__items">Be a Model</a>
 				</li>
 				<li class="menu__items3">
-					<a href="#" class="menu__items">About Us</a>
+					<a href="aboutUs.html" class="menu__items">About Us</a>
 				</li>
 				<li class="menu__items4">
-					<a href="#" class="menu__items">Contact Us</a>
+					<a href="contact.html" class="menu__items">Contact Us</a>
 				</li>
 			</ul>
 			<div class="menu__soc">
@@ -78,55 +78,62 @@
 		</nav>
 	</header>
 
-    <div class="cards container">
-        <div class="cards__text">
-            <a href="models.html" class="cards__back">back to models</a>
-            <h1 class="cards__name">Gloobenko Anita</h1>
-            <div class="cards__infa">
-                <p class="cards__age">Age 9</p>
-                <p class="cards__height">Height 133</p>
-                <p class="cards__eyes">Eyes hazel</p>
-                <p class="cards__hair">Hair blonde</p>
-            </div>
-            <a href="#cards__video" class="cards__video">Video Business</a>
-        </div>
 
-        <div class="cards__galery">
-            <a data-fancybox="img-photo" href="images/photo3.jpg" class="cards__glPhoto" data-caption="lalala">
-                <img src="images/photo3.jpg" alt="Photo" class="cards__glImg">
-            </a>
+    
+    <div class="container">
+            
+		<div class="cards">
+			<div class="cards__text">
+				<a href="models.html" class="cards__back">&mdash; back to models</a>
+				<h1 class="cards__name">Gloobenko Anita</h1>
+				<div class="cards__infa">
+					<p class="cards__age">Age 9</p>
+					<p class="cards__height">Height 133</p>
+					<p class="cards__eyes">Eyes hazel</p>
+					<p class="cards__hair">Hair blonde</p>
+				</div>
+				<a href="#video" class="cards__video">Video Business &darr;</a>
+			</div>
 
-            <div class="cards__galeryMin">
-                <a data-fancybox="img-photo" href="images/gallery/glob (1).jpg" class="cards__photo" data-caption="lalala">
-                    <img src="images/gallery/glob (1).jpg" alt="photo" class="cards__img">
-                </a>
-                <a data-fancybox="img-photo" href="images/gallery/glob (2).jpg" class="cards__photo" data-caption="lalala">
-                    <img src="images/gallery/glob (2).jpg" alt="photo" class="cards__img">
-                </a>
-                <a data-fancybox="img-photo" href="images/gallery/glob (3).jpg" class="cards__photo" data-caption="lalala">
-                    <img src="images/gallery/glob (3).jpg" alt="photo" class="cards__img">
-                </a>
-                <a data-fancybox="img-photo" href="images/gallery/glob (4).jpg" class="cards__photo" data-caption="lalala">
-                    <img src="images/gallery/glob (4).jpg" alt="photo" class="cards__img">
-                </a>
-                <a data-fancybox="img-photo" href="images/gallery/glob (5).jpg" class="cards__photo" data-caption="lalala">
-                    <img src="images/gallery/glob (5).jpg" alt="photo" class="cards__img">
-                </a>
-                <a data-fancybox="img-photo" href="images/gallery/glob (6).jpg" class="cards__photo" data-caption="lalala">
-                    <img src="images/gallery/glob (6).jpg" alt="photo" class="cards__img">
-                </a>
-                <a data-fancybox="img-photo" href="images/gallery/glob (7).jpg" class="cards__photo" data-caption="lalala">
-                    <img src="images/gallery/glob (7).jpg" alt="photo" class="cards__img">
-                </a>
-            </div>
-        </div>
-    </div>
+			<div class="cards__galery">
+				
+				<div class="cards__glPhoto">
+					<a data-fancybox="img-photo" href="images/photo3.jpg" class="cards__photo"
+						style="background-image: url(images/photo3.jpg)">
+					</a> 
+				</div>
 
-    <div class="cards__video">
-        <video controls muted class="cards__vid">
-            <source src="images/Christmas Slideshow _1.mp4" type="video/mp4">
-        </video>
-    </div>
+				<div class="cards__galeryMin">
+					<a data-fancybox="img-photo" href="images/gallery/glob1.jpg" class="cards__photo"
+						style="background-image: url(images/gallery/glob1.jpg)">
+					</a>
+					<a data-fancybox="img-photo" href="images/gallery/glob2.jpg" class="cards__photo"
+						style="background-image: url(images/gallery/glob2.jpg)">
+					</a>
+					<a data-fancybox="img-photo" href="images/gallery/glob3.jpg" class="cards__photo"
+						style="background-image: url(images/gallery/glob3.jpg)">
+					</a>
+					<a data-fancybox="img-photo" href="images/gallery/glob4.jpg" class="cards__photo"
+						style="background-image: url(images/gallery/glob4.jpg)">
+					</a>
+					<a data-fancybox="img-photo" href="images/gallery/glob5.jpg" class="cards__photo"
+						style="background-image: url(images/gallery/glob5.jpg)">
+					</a>
+					<a data-fancybox="img-photo" href="images/gallery/glob6.jpg" class="cards__photo"
+						style="background-image: url(images/gallery/glob6.jpg)">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="video" id="video">
+			<p class="video__text">Video Business</p>
+				<video controls muted class="video__vid">
+					<source src="images/Christmas Slideshow _1.mp4" type="video/mp4">
+				</video>
+		</div>
+	
+	</div>
+
 
 	<footer class="footer">
 		<div class="footer__contact">
